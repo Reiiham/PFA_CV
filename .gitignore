@@ -1,0 +1,8 @@
+API.txt
+.env
+behavioral_questions_annotated.json
+data-scientist-resume-example.pdf
+venv/
+node_modules/
+clean_repo/
+Software Questions.csv

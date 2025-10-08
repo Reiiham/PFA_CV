@@ -1,0 +1,1055 @@
+[
+    {
+        "id": 201,
+        "question": "Why do you want to work for X company?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 202,
+        "question": "Why do you want to leave your current/last company?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 203,
+        "question": "What are you looking for in your next role?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 204,
+        "question": "Tell me about a time when you had a conflict with a co-worker.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 205,
+        "question": "Tell me about a time in which you had a conflict and needed to influence somebody else.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 206,
+        "question": "What project are you currently working on?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 207,
+        "question": "What is the most challenging aspect of your current project?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 208,
+        "question": "What was the most difficult bug that you fixed in the past 6 months?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 209,
+        "question": "How do you tackle challenges? Name a difficult challenge you faced while working on a project, how you overcame it, and what you learned.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 210,
+        "question": "What are you excited about?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 211,
+        "question": "What frustrates you?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 212,
+        "question": "Imagine it is your first day here at the company. What do you want to work on? What features would you improve on?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 213,
+        "question": "What are the most interesting projects you have worked on and how might they be relevant to this company's environment?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 214,
+        "question": "Tell me about a time you had a disagreement with your manager.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 215,
+        "question": "Talk about a project you are most passionate about, or one where you did your best work.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 216,
+        "question": "What does your best day of work look like?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 217,
+        "question": "What is something that you had to push for in your previous projects?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 218,
+        "question": "What is the most constructive feedback you have received in your career?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 219,
+        "question": "What is something you had to persevere at for multiple months?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 220,
+        "question": "Tell me about a time you met a tight deadline.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 221,
+        "question": "If this were your first annual review with our company, what would I be telling you right now?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 222,
+        "question": "Time management has become a necessary factor in productivity. Give an example of a time-management skill you've learned and applied at work.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 223,
+        "question": "Tell me about a problem you've had getting along with a work associate.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 224,
+        "question": "What aspects of your work are most often criticized?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 225,
+        "question": "How have you handled criticism of your work?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 226,
+        "question": "What strengths do you think are most important foryour job position?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 227,
+        "question": "What words would your colleagues use to describe you?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 228,
+        "question": "What would you hope to achieve in the first six months after being hired?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Create",
+        "source": "behavioral"
+    },
+    {
+        "id": 229,
+        "question": "Tell me why you will be a good fit for the position.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 230,
+        "question": "What does \"belong anywhere\" mean to you?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 231,
+        "question": "What large problems in the world would you solve today?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 232,
+        "question": "Why do you like Airbnb?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 233,
+        "question": "If you had an unlimited budget and you could buy one gift for one person, what would you buy and who would you buy it for?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 234,
+        "question": "If you had an unlimited budget and you could go somewhere, where would you go?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Create",
+        "source": "behavioral"
+    },
+    {
+        "id": 235,
+        "question": "Share one of your trips with us.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 236,
+        "question": "What is the most challenging project in or out of school that you have worked on in the last 6 months.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 237,
+        "question": "What is something that you don't want from your last internship/job?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 238,
+        "question": "Give me an example of when you've been a good host.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 239,
+        "question": "What's something you'd like to remove from the Airbnb experience?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 240,
+        "question": "What is something new that you can teach your interviewer in a few minutes?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Create",
+        "source": "behavioral"
+    },
+    {
+        "id": 241,
+        "question": "Tell me about why you want to work here.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 242,
+        "question": "What is the best gift you have ever given or received?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 243,
+        "question": "Tell me about a time you were uncomfortable and how you dealt with it.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 244,
+        "question": "Explain a project that you worked on recently.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 245,
+        "question": "What do you think of Airbnb?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 246,
+        "question": "Tell me something about yourself and why you'd be a good fit for the position.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 247,
+        "question": "Name a situation where you were impressed by a company's customer service.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 248,
+        "question": "How did you work with senior management on large projects as well as multiple internal teams?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 249,
+        "question": "Tell me about a time you had to give someone terrible news.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 250,
+        "question": "If you were a gerbil, which gerbil would you be?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Create",
+        "source": "behavioral"
+    },
+    {
+        "id": 251,
+        "question": "What excites you about the company?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 252,
+        "question": "How does Airbnb impact our guests and hosts?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 253,
+        "question": "What part of our mission resonates the most with you?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 254,
+        "question": "How do you deal with a failed deadline?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 255,
+        "question": "Why do you want to work for Amazon?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 256,
+        "question": "Tell me about a situation where you had a conflict with a teammate.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 257,
+        "question": "In your professional experience have you worked on something without getting approval from your manager?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 258,
+        "question": "Tell me a situation where you would have done something differently from what you actually did.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 259,
+        "question": "What is the most exceedingly bad misstep you've made at any point?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 260,
+        "question": "Describe what Human Resources means to you.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 261,
+        "question": "How would you improve Amazon's website?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 262,
+        "question": "What do you know about<role>and why?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 263,
+        "question": "Take me through a product you launched from start to end",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 264,
+        "question": "What's the biggest achievement in your previous projects?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 265,
+        "question": "Tell me about a recent failure and what you learned from the experience",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 266,
+        "question": "Why do you want to work at ByteDance?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 267,
+        "question": "What makes you a good fit for this position?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 268,
+        "question": "What excites you about the role?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 269,
+        "question": "Talk about your favorite project.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 270,
+        "question": "If you were hired here what would you do?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 271,
+        "question": "State an experience about how you solved a technical problem. Be specific about the diagnosis and process.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 272,
+        "question": "Tell me about yourself.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 273,
+        "question": "What is your biggest strength and area of growth?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 274,
+        "question": "Why are you interested in this opportunity?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 275,
+        "question": "What are your salary expectations?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 276,
+        "question": "Why are you looking to leave your current company?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 277,
+        "question": "Tell me about a time your work responsibilities got a little overwhelming. What did you do?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 278,
+        "question": "Give me an example of a time when you had a difference of opinion with a team member. How did you handle that?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 279,
+        "question": "Tell me about a challenge you faced recently in your role. How did you tackle it? What was the outcome?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 280,
+        "question": "Where do you want to be in five years?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Create",
+        "source": "behavioral"
+    },
+    {
+        "id": 281,
+        "question": "Tell me about a time you needed information from someone who wasn't responsive. What did you do?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 282,
+        "question": "Tell me about your most interesting/challenging project to date.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 283,
+        "question": "Why Lyft? What are you looking for in the next role?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 284,
+        "question": "What is something 90% of people disagree with you about?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 285,
+        "question": "What is broken around you?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 286,
+        "question": "How do you deal with difficult coworkers? Think about specific instances where you resolved conflicts.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 287,
+        "question": "How did you win over the difficult employees?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 288,
+        "question": "Tell me about an analytical problem that you have worked on in the past.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 289,
+        "question": "What are your three strengths and three weaknesses?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 290,
+        "question": "If you were in charge of picking projects for Palantir, what problem would you try to solve?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Create",
+        "source": "behavioral"
+    },
+    {
+        "id": 291,
+        "question": "What are some of the best and worst things about your current company?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 292,
+        "question": "What would your manager say about you?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 293,
+        "question": "Describe Palantir to your grandmother.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 294,
+        "question": "Teach me something you've learned.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 295,
+        "question": "Tell me a time when you predicted something.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 296,
+        "question": "If your supervisors were to rate you on a scale of 1-10, what would they rate you?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 297,
+        "question": "What was the most fun thing you did recently?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 298,
+        "question": "Tell me the story of how you became who you are today and what made you apply to Palantir.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 299,
+        "question": "Tell me something about your internship.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 300,
+        "question": "Why do you want to join Slack?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 301,
+        "question": "Tell me about your past projects.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 302,
+        "question": "Explain me your toughest project and the working architecture.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 303,
+        "question": "Apart from technical knowledge, what did you learn during your internship?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 304,
+        "question": "If someone has a different viewpoint to do a project like different programming language, how would handle this situation?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 305,
+        "question": "What are your most interesting subjects and why?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    },
+    {
+        "id": 306,
+        "question": "Did you find any bugs in Slack?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 307,
+        "question": "What is your favorite feature and why?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 308,
+        "question": "What have you built?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Remember",
+        "source": "behavioral"
+    },
+    {
+        "id": 309,
+        "question": "What is the hardest technical problem you have run into?How did you solve it?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 310,
+        "question": "How did you solve it?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Understand",
+        "source": "behavioral"
+    },
+    {
+        "id": 311,
+        "question": "Where do you see yourself in 5 years?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Create",
+        "source": "behavioral"
+    },
+    {
+        "id": 312,
+        "question": "Why do you want to work here?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 313,
+        "question": "How do you handle disagreements with co-workers?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 314,
+        "question": "How do you stay up to date with the latest technologies?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Apply",
+        "source": "behavioral"
+    },
+    {
+        "id": 315,
+        "question": "Explain a project that you worked on recently that was difficult.",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Analyze",
+        "source": "behavioral"
+    },
+    {
+        "id": 316,
+        "question": "Where do you see yourself in five years?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "medium",
+        "bloom_level": "Create",
+        "source": "behavioral"
+    },
+    {
+        "id": 317,
+        "question": "What would your previous boss say your biggest strength was?",
+        "answer": null,
+        "category": "Behavioral",
+        "difficulty": "easy",
+        "bloom_level": "Evaluate",
+        "source": "behavioral"
+    }
+]
