@@ -6,3 +6,14 @@ venv/
 node_modules/
 clean_repo/
 Software Questions.csv
+todo.txt
+Ux-designer-resume-example-5.pdf
+tmp_test_import.py
+technical_questions_annotated.json
+senior-data-scientist-resume-example
+data-science-manager-resume-example.pdf
+backend\db\sample_data.sql
+backend\services\__pycache__
+backend\services\quiz_generator_copy.txt
+backend\services\tmp_test_import.py
+backend\tmp/

@@ -1,0 +1,180 @@
+
+import json
+from typing import List, Dict, Any
+from .groq_client import get_groq_client
+from pinecone import Pinecone
+import os
+from dotenv import load_dotenv
+from sentence_transformers import SentenceTransformer
+
+
+load_dotenv()
+
+# --- CONFIG ---
+PINECONE_API_KEY = os.getenv("PINECONE_API")
+INDEX_HOST = os.getenv("INDEX_URL")
+NAMESPACE = "quiz-namespace"
+
+# --- INIT SERVICES ---
+pc = Pinecone(api_key=PINECONE_API_KEY)
+index = pc.Index(host=INDEX_HOST)
+
+print("[quiz_generator] Loading embedding model...")
+embedding_model = SentenceTransformer('BAAI/bge-large-en-v1.5')
+print("[quiz_generator] ✅ Embedding model loaded")
+
+# ---------------- PROMPT TEMPLATE ----------------
+QUIZ_PROMPT_TEMPLATE = """You are an expert quiz generator.
+Use the provided CONTEXT from the knowledge base and the given skills to create a JSON quiz.
+
+Each skill should have 2–3 questions.
+Questions can be:
+- "MCQ" with 4 options (one correct)
+- "Short Answer"
+- "Coding"
+
+Return ONLY valid JSON in this format:
+{{
+  "skill_quizzes": [
+    {{
+      "skill": "Skill Name",
+      "questions": [
+        {{
+          "type": "MCQ" or "Short Answer" or "Coding",
+          "bloom_level": "Remember" | "Understand" | "Apply" | "Analyze" | "Evaluate" | "Create",
+          "question": "Question text",
+          "options": ["A", "B", "C", "D"],  # only for MCQ
+          "answer": "Correct answer (for MCQ)"
+        }}
+      ]
+    }}
+  ]
+}}
+
+Context:
+{context}
+
+Skills:
+{skills}
+"""
+
+# ---------------- EMBEDDING FUNCTION ----------------
+def get_embedding(text: str) -> List[float]:
+    """Generate a local embedding (1024 dimensions, free)"""
+    try:
+        return embedding_model.encode(text).tolist()
+    except Exception as e:
+        print(f"[get_embedding] Error for '{text[:50]}': {e}")
+        return []
+
+# ---------------- RAG SEARCH ----------------
+def retrieve_context(skills: List[str], top_k: int = 5) -> str:
+    """Retrieve relevant text chunks from Pinecone using embeddings"""
+    all_context = []
+    for skill in skills:
+        try:
+            query_vector = get_embedding(skill)
+            if not query_vector:
+                continue
+
+            query_results = index.query(
+                namespace=NAMESPACE,
+                vector=query_vector,
+                top_k=top_k,
+                include_metadata=True
+            )
+
+            matches = query_results.get('matches', [])
+            print(f"[retrieve_context] Found {len(matches)} results for skill '{skill}'")
+
+            for match in matches:
+                text = match.get("metadata", {}).get("text", "")
+                score = match.get("score", 0)
+                if text and score > 0.3:
+                    all_context.append(f"- {text}")
+
+        except Exception as e:
+            print(f"[retrieve_context] Error querying Pinecone for '{skill}': {e}")
+            continue
+
+    context = "\n".join(all_context) if all_context else "No specific context found."
+    print(f"[retrieve_context] Total context length: {len(context)} characters")
+    return context
+
+# ---------------- QUIZ GENERATION ----------------
+def generate_quiz_for_skills(categorized_skills: Dict[str, List[str]]) -> dict:
+    """Generate quiz questions using RAG + Groq + JSON safety"""
+    print("[quiz_generator] Initializing Groq client...")
+    client = get_groq_client()
+    print("[quiz_generator] ✅ Groq client ready")
+
+    # Limit to top 2 skills per category (avoid token overload)
+    limited_skills = {cat: skills[:2] for cat, skills in categorized_skills.items()}
+    all_skills = [s for group in limited_skills.values() for s in group]
+
+    # 🔍 Retrieve contextual knowledge from Pinecone
+    print("[quiz_generator] Retrieving context via RAG...")
+    context = retrieve_context(all_skills)
+
+    # 🧠 Prepare the final prompt
+    prompt = QUIZ_PROMPT_TEMPLATE.format(
+        context=context,
+        skills=json.dumps(limited_skills, ensure_ascii=False)
+    )
+
+    try:
+        completion = client.chat.completions.create(
+            model="openai/gpt-oss-20b",
+            messages=[
+                {"role": "system", "content": "Return valid JSON only."},
+                {"role": "user", "content": prompt},
+            ],
+            temperature=0.2,
+            max_tokens=4000,
+            stream=False,
+        )
+
+        response_text = completion.choices[0].message.content.strip()
+        print("[quiz_generator] Raw response preview:")
+        print(response_text[:700])
+
+        # Try parsing JSON safely
+        try:
+            quiz = json.loads(response_text)
+        except json.JSONDecodeError:
+            print("[quiz_generator] ⚠️ Cleaning malformed JSON...")
+            cleaned = response_text.strip()
+            start = cleaned.find('{')
+            end = cleaned.rfind('}') + 1
+            if start != -1 and end != -1:
+                cleaned = cleaned[start:end]
+            try:
+                quiz = json.loads(cleaned)
+            except json.JSONDecodeError:
+                print("[quiz_generator] ❌ Still invalid JSON. Returning empty quiz.")
+                quiz = {"skill_quizzes": []}
+
+        print("[quiz_generator] ✅ Quiz generation successful")
+        return quiz
+
+    except Exception as e:
+        print(f"[quiz_generator] ⚠️ Quiz generation error: {e}")
+        return {"skill_quizzes": []}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

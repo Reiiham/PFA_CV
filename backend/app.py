@@ -8,7 +8,7 @@ from services.quiz_generator import generate_quiz_for_skills
 from services.grader import grade_answers_and_score
 from services.recommender import recommend_courses
 from services.groq_client import get_groq_client
-
+"""
 app = Flask(__name__)
 CORS(app)
 
@@ -214,3 +214,6 @@ def submit_answers():
 if __name__ == '__main__':
     port = int(os.getenv('PORT', '5000'))
     app.run(host='0.0.0.0', port=port, debug=True)
+
+
+"""
